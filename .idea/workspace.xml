@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2caacf2c-b0b0-4f5c-b215-6054f2f97784" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/restapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_02_130828_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_02_130828_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_02_131030_create_reviews_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_02_131030_create_reviews_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_02_130828_create_products_table.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_02_131030_create_reviews_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -38,6 +54,8 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_02_130828_create_products_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_02_131030_create_reviews_table.php" />
       </list>
     </option>
   </component>
@@ -232,12 +250,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551531535349</updated>
-      <workItem from="1551531536497" duration="1282000" />
+      <workItem from="1551531536497" duration="3384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1282000" />
+    <option name="totallyTimeSpent" value="3384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -287,8 +305,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_02_130828_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_02_131030_create_reviews_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
         </state>
       </provider>
     </entry>
