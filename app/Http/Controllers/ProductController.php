@@ -80,14 +80,9 @@ class ProductController extends Controller
         ],Response::HTTP_CREATED);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Model\Product  $product
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Product $product)
     {
-        //
+       $product->delete();
+        return response(null,Response::HTTP_NO_CONTENT);
     }
 }
